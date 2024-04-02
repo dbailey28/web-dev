@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* grouping */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Children - only 1 level from the parent */
+div.box > p {
+    color: firebrick;
+}
+
+/* decendants */
+.list li {
+    color: blue;
+}
+
+/* chaining selectors via no space between them
+    example: h1#titile.big.heading
+*/
+li.done {
+    color: seagreen;
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}

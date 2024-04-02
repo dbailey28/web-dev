@@ -1,0 +1,20 @@
+body {
+    background-color:#000;
+}
+
+
+h1 {
+    text-transform: uppercase;
+}
+
+.ex-container {
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    text-align: center;
+    font-family: "Caveat", serif;
+}
+div.ex-container img {
+    width: 100%;
+    border: 5px solid #fff;
+}
